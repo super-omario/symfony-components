@@ -2,7 +2,7 @@
     "name": "omar/symfony-components",
     "autoload": {
         "psr-4": {
-            "Omar\\SymfonyComponents\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -13,6 +13,10 @@
     ],
     "require-dev": {
         "phpstan/phpstan": "^2.1",
-        "friendsofphp/php-cs-fixer": "^3.75"
+        "friendsofphp/php-cs-fixer": "^3.75",
+        "symfony/var-dumper": "^7.3"
+    },
+    "require": {
+        "symfony/dependency-injection": "^7.3"
     }
 }
